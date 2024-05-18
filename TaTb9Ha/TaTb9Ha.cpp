@@ -161,7 +161,7 @@ int main()
             break;
         case 3:
             if (lastPerson == nullptr) cout << "Записи о студентах отсутствуют.\n";
-            ShowAll(lastPerson);
+            else ShowAll(lastPerson);
             break;
         case 4:
             if (lastPerson == nullptr) cout << "Записи о студентах отсутствуют.\n";
