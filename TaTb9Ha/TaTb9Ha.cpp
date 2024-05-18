@@ -165,21 +165,30 @@ int main()
             break;
         case 4:
             if (lastPerson == nullptr) cout << "Записи о студентах отсутствуют.\n";
-            cout << "Введите фамилию: ";
-            cin >> lastName;
-            SearchLastName(lastPerson, lastName);
+            else
+            {
+                cout << "Введите фамилию: ";
+                cin >> lastName;
+                SearchLastName(lastPerson, lastName);
+            }
             break;
         case 5:
             if (lastPerson == nullptr) cout << "Записи о студентах отсутствуют.\n";
-            cout << "Введите дату рождения: ";
-            cin >> birthDate;
-            SearchBirthDate(lastPerson, birthDate);
+            else
+            {
+                cout << "Введите дату рождения: ";
+                cin >> birthDate;
+                SearchBirthDate(lastPerson, birthDate);
+            }
             break;
         case 6:
             if (lastPerson == nullptr) cout << "Записи о студентах отсутствуют.\n";
-            cout << "Введите номер телефона: ";
-            cin >> phone;
-            SearchPhone(lastPerson, phone);
+            else
+            {
+                cout << "Введите номер телефона: ";
+                cin >> phone;
+                SearchPhone(lastPerson, phone);
+            }
             break;
         case 7:
             break;
